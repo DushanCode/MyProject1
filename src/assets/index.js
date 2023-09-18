@@ -10,4 +10,7 @@ import emoji2 from './emoji2.png';
 import post1 from './post1.jpg';
 import post2 from './post2.jpg';
 
-export { logo, logo2, phone, android, apple, emoji1, emoji2, post1, post2 };
+import wa_logo from './whatsapp_logo.png';
+import email_logo from './email_logo.png';
+
+export { logo, logo2, phone, android, apple, emoji1, emoji2, post1, post2, wa_logo, email_logo };

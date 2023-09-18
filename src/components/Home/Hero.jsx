@@ -5,22 +5,17 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <div className='container mx-auto py-10'>
+    <div className='container mx-auto'>
       <div className='grid grid-cols-2 lg:grid-rows-3 grid-rows-6 py-10 h-[60%]'>
         <div className='lg:row-span-3 row-span-2 lg:row-start-1 row-start-2  row-end-3 mr-10'>
-          <div className='relative before:bg-ashBg before:w-full before:h-[90%] before:absolute before:top-[50%] before:left-0 before:translate-y-[-49%] before:z-[1] before:rounded-full'>
-
-
-            <img 
-            src={phone} 
-            alt='' className='relative  
-            h-[48%] lg:w-[58%] z-[2] mx-auto' />
-
-
-            
+          <div className='relative before:bg-ashBg before:w-full before:h-[90%] before:absolute lg:before:top-[50%] before:top-[-30px] lg:before:left-0 before:left-[-40px] lg:before:translate-y-[-50%] before:z-[1] before:rounded-[100%]'>
+            <img
+              src={phone}
+              alt=''
+              className='relative lg:h-[50%] h-[80%] lg:w-[50%] w-[80%] z-[2] mx-auto mt-10'
+            />
           </div>
         </div>
-        <div className='flex flex-col gap-10 p-14'>
         <div className='lg:col-start-2 col-start-1 col-end-3 row-start-1 lg:mb-0 mb-10'>
           <h2 className='text-3xl font-bold text-[#908573]'>
             Welcome to MyLibrary !
@@ -53,12 +48,17 @@ const Hero = () => {
               </div>
             </div>
             <div className='relative w-[100px] h-[100px]'>
-              <div className='absolute border-4 rounded-full border-black w-[100px] h-[100px] flex items-center lg:left-[-60px] lg:top-0 top-[-60px] bg-ashBg'></div>
+              <div className='absolute border-4 rounded-full  border-[#c39267] w-[100px] h-[100px] flex items-center lg:left-[-60px] lg:top-0 top-[-60px]'>
+                <span className='text-[#c39267] pl-[18px] text-sm text-center'>
+                  E<br />
+                  newspapers
+                </span>
+              </div>
             </div>
             <img
               src={emoji1}
               alt=''
-              className='absolute lg:block hidden w-[50px] h-[50px] -rotate-90 top-0 left-[-10px]'
+              className='absolute lg:block hidden w-[40px] h-[40px] -rotate-90 top-0 left-[-10px]'
             />
             <img
               src={emoji2}
@@ -74,12 +74,11 @@ const Hero = () => {
 
           <div className='flex mt-3 gap-5'>
             <Link to='/'>
-              <img src={android} alt='' className='h-[40px] w-[80px]' />
+              <img src={android} alt='' className='h-[40px] w-[120px]' />
             </Link>
             <Link to='/'>
-              <img src={apple} alt='' className='h-[40px] w-[80px]' />
+              <img src={apple} alt='' className='h-[40px] w-[100px]' />
             </Link>
-            </div>
           </div>
         </div>
       </div>

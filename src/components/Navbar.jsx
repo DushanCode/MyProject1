@@ -8,8 +8,8 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className='bg-ashBg h-auto relative justify-center w-full'>
-      <div className='container'>
+    <div className='bg-ashBg h-auto'>
+      <div className='container mx-auto'>
         <div className='bg-navBg h-full flex justify-between items-center'>
           <Link to='/'>
             <div className='flex items-center'>

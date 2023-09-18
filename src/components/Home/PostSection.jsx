@@ -42,7 +42,7 @@ const PostSection = () => {
                     </button>
                   </div>
                   <h2 className='text-2xl mt-3'>{title}</h2>
-                      <p className='text-xl mt-3 mb-32'>{des}</p>
+                  <p className='text-xl mt-3 mb-32'>{des}</p>
                   <div className='flex justify-between py-5 items-center border-t-2 border-t-black'>
                     <div>
                       <span className='mr-3'>0 views</span>
