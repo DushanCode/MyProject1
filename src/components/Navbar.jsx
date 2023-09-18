@@ -9,6 +9,7 @@ const Navbar = () => {
 
   return (
     <div className='bg-ashBg h-auto'>
+
       <div className='container mx-auto'>
         <div className='bg-navBg h-full flex justify-between items-center'>
           <Link to='/'>

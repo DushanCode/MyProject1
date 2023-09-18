@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='flex items-center pt-28 lg:gap-52 md:gap-24 flex-wrap'>
           <div className='flex items-center gap-2'>
             <img src={wa_logo} alt='' className='w-[80px] h-[80px]' />
-            <span className='font-bold text-2xl'>(+94) 7347276</span>
+            <span className='font-bold text-2xl'>(+94) 716132227</span>
           </div>
           <div className='flex items-center gap-2'>
             <img src={email_logo} alt='' className='w-[80px] h-[80px]' />
