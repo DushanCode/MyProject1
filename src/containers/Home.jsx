@@ -4,11 +4,11 @@ import { BlogSection, Hero, PostSection } from '../components';
 
 const Home = () => {
   return (
-    <div>
-      <Hero />
-      {/* <BlogSection />
-      <PostSection /> */}
-    </div>
+            <div>
+                      <Hero />
+                      {/* <BlogSection />
+                      <PostSection /> */}
+            </div>
   );
 };
 

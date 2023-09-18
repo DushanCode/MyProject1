@@ -8,38 +8,39 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className='bg-ashBg h-auto'>
+    <div className='bg-ashBg h-500px '>
+
 
       <div className='container mx-auto'>
         <div className='bg-navBg h-full flex justify-between items-center'>
           <Link to='/'>
             <div className='flex items-center'>
               <img src={logo} alt='' className='h-[100px]' />
-              <span className='capitalize text-3xl font-black text-[#3d8f83]'>
-                my libarary
-              </span>
+                    <span className='capitalize text-3xl font-black text-[#3d8f83]'>
+                      my libarary
+                    </span>
             </div>
           </Link>
           <ul className='lg:flex hidden mr-20 gap-20'>
             <li>
-              <Link to='/' className='uppercase font-bold text-sm'>
-                Home
-              </Link>
+                    <Link to='/' className='uppercase font-bold text-sm'>
+                      Home
+                    </Link>
             </li>
             <li>
-              <Link to='/blog' className='uppercase font-bold text-sm'>
-                Blog
-              </Link>
+                    <Link to='/blog' className='uppercase font-bold text-sm'>
+                      Blog
+                    </Link>
             </li>
             <li>
-              <Link to='/about' className='uppercase font-bold text-sm'>
-                About
-              </Link>
+                    <Link to='/about' className='uppercase font-bold text-sm'>
+                      About
+                    </Link>
             </li>
             <li>
-              <Link to='/contact' className='uppercase font-bold text-sm'>
-                Contact
-              </Link>
+                    <Link to='/contact' className='uppercase font-bold text-sm'>
+                      Contact
+                    </Link>
             </li>
           </ul>
           <button
@@ -49,9 +50,9 @@ const Navbar = () => {
             <AiOutlineMenu />
           </button>
           <div
-            className={`${
-              showMenu ? 'block' : 'hidden'
-            } absolute top-[100px] h-[200px] bg-navBg w-full z-10 text-center`}
+                  className={`${
+                    showMenu ? 'block' : 'hidden'
+                  } absolute top-[100px] h-[200px] bg-navBg w-full z-10 text-center`}
           >
             <ul>
               <li className='mb-5'>
@@ -78,7 +79,8 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+        </div>
+
   );
 };
 
