@@ -1,7 +1,9 @@
 import React from 'react';
+import { PostSection } from '../components';
+
 
 const Blog = () => {
-  return <div>Blog</div>;
+  return <PostSection />;
 };
 
 export default Blog;
