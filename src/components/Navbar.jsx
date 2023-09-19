@@ -9,6 +9,10 @@ const Navbar = () => {
 
   return (
     <div className='bg-ashBg h-500px '>
+      <div className='bg-red-700 h-1000px '>
+
+
+      </div>
 
 
       <div className='container mx-auto'>
@@ -22,25 +26,25 @@ const Navbar = () => {
             </div>
           </Link>
           <ul className='lg:flex hidden mr-20 gap-20'>
-            <li>
-                    <Link to='/' className='uppercase font-bold text-sm'>
-                      Home
-                    </Link>
-            </li>
-            <li>
-                    <Link to='/blog' className='uppercase font-bold text-sm'>
-                      Blog
-                    </Link>
-            </li>
-            <li>
-                    <Link to='/about' className='uppercase font-bold text-sm'>
-                      About
-                    </Link>
-            </li>
-            <li>
-                    <Link to='/contact' className='uppercase font-bold text-sm'>
-                      Contact
-                    </Link>
+                        <li>
+                                <Link to='/' className='uppercase font-bold text-sm'>
+                                  Home
+                                </Link>
+                        </li>
+                        <li>
+                                <Link to='/blog' className='uppercase font-bold text-sm'>
+                                  Blog
+                                </Link>
+                        </li>
+                        <li>
+                                <Link to='/about' className='uppercase font-bold text-sm'>
+                                  About
+                                </Link>
+                        </li>
+                        <li>
+                                <Link to='/contact' className='uppercase font-bold text-sm'>
+                                  Contact
+                                </Link>
             </li>
           </ul>
           <button
