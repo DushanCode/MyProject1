@@ -1,16 +1,23 @@
 import React from 'react';
 
-import { BlogSection, Hero, PostSection } from '../components';
+import {
+    BlogSection,
+    Hero,
+    MyLibraryCommunity,
+    Community,
+} from '../components';
 
 const Home = () => {
-  return (
-            <div>
-                      <Hero />
-                      <BlogSection />
-                {/*
-                      <PostSection /> */}
-            </div>
-  );
+    return (
+        <div>
+            <Hero />
+            <BlogSection />
+            <MyLibraryCommunity />
+            <Community />
+        </div>
+    );
 };
 
 export default Home;
+
+

@@ -5,3 +5,9 @@ import BlogSection from './Home/BlogSection';
 import PostSection from './Home/PostSection';
 
 export { Navbar, Footer, Hero, BlogSection, PostSection };
+
+export class MyLibraryCommunity {
+}
+
+export default   class Community {
+}
