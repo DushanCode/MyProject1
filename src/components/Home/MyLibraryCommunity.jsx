@@ -46,6 +46,7 @@ const MyLibraryCommunity = () => {
                             <img src={person2} alt='' className='mx-[-70px] z-10 h-[200px]' />
                             <img src={person3} alt='' className='z-20 h-[200px]' />
                             <img src={person4} alt='' className='mx-[-70px] z-10 h-[200px]' />
+
                         </div>
                     </div>
                 </div>
