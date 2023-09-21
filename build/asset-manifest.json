@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.72878f52.css",
+    "main.js": "/static/js/main.458ba628.js",
+    "static/media/android.png": "/static/media/android.3312e4cc8596985fbc44.png",
+    "static/media/apple.png": "/static/media/apple.3e029ef04013fa8bd8bb.png",
+    "static/media/phone.png": "/static/media/phone.4a68d66a29f2f476eebe.png",
+    "static/media/whatsapp_logo.png": "/static/media/whatsapp_logo.487a1acee30e9cd376a9.png",
+    "static/media/emoji2.png": "/static/media/emoji2.f1eb2d20a1a56adfb9a0.png",
+    "static/media/post1.jpg": "/static/media/post1.6f556b70d31ccbde9cf5.jpg",
+    "static/media/email_logo.png": "/static/media/email_logo.4d7fcb28f4f282eec753.png",
+    "static/media/post2.jpg": "/static/media/post2.5e9cf10234d5177ef6ea.jpg",
+    "static/media/logo.png": "/static/media/logo.6ead5ac375889a5f219c.png",
+    "static/media/emoji1.png": "/static/media/emoji1.0a882e78ba6e0af01fdb.png",
+    "index.html": "/index.html",
+    "main.72878f52.css.map": "/static/css/main.72878f52.css.map",
+    "main.458ba628.js.map": "/static/js/main.458ba628.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72878f52.css",
+    "static/js/main.458ba628.js"
+  ]
+}
