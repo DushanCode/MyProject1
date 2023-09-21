@@ -2,6 +2,9 @@ import logo from './logo.png';
 import logo2 from './logo.jpeg';
 
 import phone from './phone.png';
+import phone2 from './phone2.png';
+import phone3 from './phone3.png';
+
 import android from './android.png';
 import apple from './apple.png';
 import emoji1 from './emoji1.png';
@@ -18,6 +21,23 @@ import person2 from './person2.png';
 import person3 from './person3.png';
 import person4 from './person4.png';
 import convercation from './convercation.png';
+
+import translator from './translator.png';
+
+import religious from './religious.jpeg';
+
+import book1 from './book1.jpeg';
+import book2 from './book2.jpeg';
+import book3 from './book3.jpeg';
+import book4 from './book4.jpg';
+import book5 from './book5.jpg';
+import book6 from './book6.jpeg';
+import book7 from './book7.jpeg';
+import book8 from './book8.jpeg';
+import book9 from './book9.jpeg';
+import book10 from './book10.jpeg';
+import book11 from './book11.jpeg';
+import book12 from './book12.jpeg';
 
 export {
   logo,
@@ -36,4 +56,20 @@ export {
   person3,
   person4,
   convercation,
+  translator,
+  phone2,
+  phone3,
+  religious,
+  book1,
+  book2,
+  book3,
+  book4,
+  book5,
+  book6,
+  book7,
+  book8,
+  book9,
+  book10,
+  book11,
+  book12,
 };

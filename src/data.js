@@ -1,4 +1,19 @@
-import { post1, post2 } from './assets';
+import {
+  post1,
+  post2,
+  book1,
+  book2,
+  book10,
+  book11,
+  book3,
+  book4,
+  book5,
+  book6,
+  book7,
+  book8,
+  book9,
+  book12,
+} from './assets';
 
 const posts = [
   {
@@ -19,4 +34,42 @@ const posts = [
   },
 ];
 
-export { posts };
+const testimonials = [
+  {
+    id: 1,
+    name: 'Lisa Driver, Mil',
+    comment:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ipsam alias hic tempora nihil maxime? Nam, molestiae quia molestias sit saepe ut at delectus amet. Aliquam incidunt velit qui magni.',
+  },
+  {
+    id: 2,
+    name: 'Junior mos',
+    comment:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat rerum molestias voluptatibus officia ullam! Quibusdam, quo. Temporibus ad libero fugit ullam, tempora inventore similique voluptates debitis recusandae harum dolores et?',
+  },
+  {
+    id: 3,
+    name: 'Yoshana fil',
+    comment:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ratione doloremque voluptatem voluptas at deleniti reiciendis architecto veritatis qui ipsum eveniet, voluptates sequi provident officiis est minus tempora sit ad!',
+  },
+];
+
+const books = [
+  {
+    id: 1,
+    img: book1,
+  },
+  { id: 2, img: book2 },
+  { id: 3, img: book3 },
+  { id: 4, img: book4 },
+  { id: 5, img: book5 },
+  { id: 6, img: book6 },
+  { id: 7, img: book7 },
+  { id: 8, img: book8 },
+  { id: 9, img: book9 },
+  { id: 10, img: book10 },
+  { id: 11, img: book11 },
+  { id: 12, img: book12 },
+];
+export { posts, testimonials, books };
