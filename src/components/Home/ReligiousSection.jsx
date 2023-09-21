@@ -3,3 +3,5 @@ export const ReligiousSection = () => {
         <></>
     )
 }
+
+export default ReligiousSection;

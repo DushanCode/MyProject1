@@ -3,3 +3,4 @@ export const GetStarted = () => {
         <></>
     )
 }
+export default GetStarted;

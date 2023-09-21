@@ -5,6 +5,11 @@ import {
     Hero,
     MyLibraryCommunity,
     Community,
+    Libraries,
+    GetStarted,
+    ReligiousSection,
+    Books,
+    Testimonials,
 } from '../components';
 
 const Home = () => {
@@ -13,11 +18,15 @@ const Home = () => {
             <Hero />
             <BlogSection />
             <MyLibraryCommunity />
+            <Libraries />
+            <GetStarted />
+            <Books />
+            <ReligiousSection />
             <Community />
+            <Testimonials />
         </div>
     );
 };
 
 export default Home;
-
 
